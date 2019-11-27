@@ -16,15 +16,15 @@
 }
 
 .loader > img {
-	margin-top: 40vh;
-	width: 12rem;
-	height: 12rem;
+	margin-top: 45vh;
+	width: 8rem;
+	height: 8rem;
 }
 
 .top-bar {
 	position: fixed;
 	width: 100vw;
-	height: 5.75vh;
+	height: 6vh;
 	box-shadow: 0 10px 20px 0 #00000029;
 	background-color: #fff;
 	border-bottom-left-radius: 5vw;
@@ -133,14 +133,33 @@
 	}
 }
 
+.app-section {
+	position: absolute;
+	margin-top: 59vh;
+	text-align: center;
+	top: 5vh;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 .social-app {
 	font-family: Montserrat;
-	font-size: 35px;
+	font-size: 1.75vh;
 	font-weight: bold;
 	font-stretch: normal;
 	font-style: normal;
 	line-height: 1.23;
 	letter-spacing: normal;
-	text-align: left;
+	text-align: center;
 	color: #727272;
+	margin-bottom: 2vh;
 }
+
+table {
+	margin-left: 0vw;
+	text-align: left;
+    width: 95vw;
+    column-gap: 4vw;
+    border-spacing: 1.5vh;
+}
+
