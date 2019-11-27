@@ -1,14 +1,134 @@
-
 * {
 	margin: 0;
 	padding: 0;
 }
 
+.loader {
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.loader > img {
+	margin-top: 40vh;
+	width: 12rem;
+	height: 12rem;
+}
+
 .top-bar {
+	position: fixed;
 	width: 100vw;
 	height: 5.75vh;
 	box-shadow: 0 10px 20px 0 #00000029;
-	background-color: #ffffff;
+	background-color: #fff;
 	border-bottom-left-radius: 5vw;
 	border-bottom-right-radius: 5vw;
+	text-align: center;
+}
+
+.top-bar > img {
+	margin-top: 0.8vh;
+	width: 17vw;
+	height: auto;
+}
+
+.slider {
+	height: 28.125vh;
+	width: 100vw;
+	margin-top: 7.5vh;
+	margin-left: 1.5vw;
+	margin-right: 2vw;
+	text-align: center;
+	position: fixed;
+}
+
+.slide1,
+.slide2,
+.slide3 {
+	position: absolute;
+	width: 97%;
+	height: 100%;
+
+}
+
+.slide1 {
+	background: url(assets/poster1.jpg)no-repeat center;
+	background-size: contain;
+	animation: fade 10s infinite;
+	-webkit-animation: fade 10s infinite;
+
+}
+
+.slide2 {
+	background: url(assets/poster2.jpg)no-repeat center;
+	background-size: contain;
+	animation: fade2 10s infinite;
+	-webkit-animation: fade2 10s infinite;
+}
+
+.slide3 {
+	background: url(assets/poster3.jpg)no-repeat center;
+	background-size: contain;
+	animation: fade3 10s infinite;
+	-webkit-animation: fade3 10s infinite;
+}
+
+@keyframes fade {
+	0% {
+		opacity: 1
+	}
+
+	33.333% {
+		opacity: 0
+	}
+
+	66.666% {
+		opacity: 0
+	}
+
+	100% {
+		opacity: 1
+	}
+}
+
+@keyframes fade2 {
+	0% {
+		opacity: 0
+	}
+
+	33.333% {
+		opacity: 1
+	}
+
+	66.666% {
+		opacity: 0
+	}
+
+	100% {
+		opacity: 0
+	}
+}
+
+@keyframes fade3 {
+	0% {
+		opacity: 0
+	}
+
+	33.333% {
+		opacity: 0
+	}
+
+	66.666% {
+		opacity: 1
+	}
+
+	100% {
+		opacity: 0
+	}
 }
