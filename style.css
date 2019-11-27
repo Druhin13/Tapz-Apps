@@ -135,7 +135,7 @@
 
 .app-section {
 	position: absolute;
-	margin-top: 59vh;
+	margin-top: 63vh;
 	text-align: center;
 	top: 5vh;
 	left: 50%;
@@ -158,12 +158,12 @@
 table {
 	margin-left: 0vw;
 	text-align: left;
-    width: 95vw;
-    column-gap: 4vw;
+    width: 90vw;
+    column-gap: 3vw;
     border-spacing: 1.5vh;
 }
 
 table img {
-	height: 8vh;
+	height: 8.5vh;
 }
 
