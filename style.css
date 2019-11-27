@@ -24,7 +24,7 @@
 .top-bar {
 	position: fixed;
 	width: 100vw;
-	height: 6vh;
+	height: 7.5vh;
 	box-shadow: 0 10px 20px 0 #00000029;
 	background-color: #fff;
 	border-bottom-left-radius: 5vw;
@@ -161,5 +161,9 @@ table {
     width: 95vw;
     column-gap: 4vw;
     border-spacing: 1.5vh;
+}
+
+table img {
+	height: 8vh;
 }
 
