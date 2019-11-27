@@ -1,1 +1,14 @@
 
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.top-bar {
+	width: 100vw;
+	height: 5.75vh;
+	box-shadow: 0 10px 20px 0 #00000029;
+	background-color: #ffffff;
+	border-bottom-left-radius: 5vw;
+	border-bottom-right-radius: 5vw;
+}
