@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,9 +9,42 @@
 
 <body>
 
-<div class="top-bar">
-	
-</div>
+	<div id="loader" class="loader">
+		<img src="assets/tapz%20loader.gif">
+	</div>
+
+	<div class="top-bar">
+		<img src="assets/tapz%20logo.svg">
+	</div>
+
+	<div class="slider">
+		<a href="https://html5.gamedistribution.com/8a023a084f0b457eb7508614457311bf/">
+			<div class="slide1"></div>
+		</a>
+		<a href="https://html5.gamedistribution.com/143f76c397d745c281aa2ebf836f0a9c/">
+			<div class="slide2"></div>
+		</a>
+		<a href="https://html5.gamedistribution.com/3299dbc531f440e4b4aeedf672b4714d/">
+			<div class="slide3"></div>
+		</a>
+	</div>
+
+
+
+
+
+
+
+
+
+	<!-- creating the loader script -->
+	<script>
+		var loader = document.getElementById("loader");
+
+		window.addEventListener('load', function() {
+			loader.style.display = 'none';
+		})
+	</script>
 
 </body>
 
